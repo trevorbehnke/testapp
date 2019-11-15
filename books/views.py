@@ -1,11 +1,9 @@
 from django.db.models import Q
-
 from django.contrib.auth.mixins import (
     LoginRequiredMixin,
     PermissionRequiredMixin
 )
 from django.views.generic import ListView, DetailView
-
 from .models import Book
 
 
